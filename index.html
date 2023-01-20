@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>EUR - RSD</title>
-</head>
-
-<body>
-    <style>
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-        }
-
-        input[type=number] {
-            -moz-appearance: textfield;
-        }
-    </style>
-    <div class="box">
-        <h1 class="h1box">EUR - RSD</h1>
-        <input type="text" class="eurInput" name="eurInput" id="eurInput" style="position: relative;">
-        <p class="eur">EUR - Euro</p>
-        <p class="enterprice"> Enter the price in EUR</p>
-        <p class="rsd">RSD - Serbian Dinar</p>
-        <output type="text" class="rsdOutput" name="rsdOutput" id=rsdOutput style="position: relative;">
-            <p class="finishPrice">
-                <script>
-                    const rsdPrice = document.getElementById('eurInput').value;
-                    const finishPrice = rsdPrice * 120;
-                    document.write(finishPrice);
-                </script>
-            </p>
-            <p class="priceshown"> Price shown in RSD</p>
-            <div class="euflag"></div>
-            <div class="srbflag"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Eur to Rsd conversion</title>
+  </head>
+  <body>
+    <div id="exchange--box">
+      <div id="title"><h2>EUR - RSD</h2></div>
+      <div id="eur--euro"><p>EUR - Euro</p></div>
+      <div class="euflag"></div>
+      <div id="input--eur"><input type="number" id="input--eur--price" /></div>
+      <div id="enter--price"><p>Enter the price in EUR</p></div>
+      <div id="rsd--serbiandinar"><p>RSD - Serbian Dinar</p></div>
+      <div class="srbflag"></div>
+      <div id="output--rsd">
+        <input type="number" id="output--rsd--price" readonly />
+      </div>
+      <div id="output--price"><p>Price shown in RSD</p></div>
+      <button
+        id="calculate--btn"
+        type="button"
+        onClick="window.location.reload();"
+      >
+        Calculate
+      </button>
     </div>
 
-
-    <script src=b.js></script>
-
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
