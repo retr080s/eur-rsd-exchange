@@ -1,12 +1,9 @@
-# eur-rsd-exchange
-EUR - RSD Exchange (CSS + Javascript exercise)
+# Eur-Rsd-Exchange
 
-<p>This is a simple EUR - RSD Exchange calculator with a fixed RSD price.</p>
+<img src="https://img.shields.io/badge/project-done-brightgreen"> <img src="https://img.shields.io/badge/version-1.0-brightgreen">
 
-<h1>Design</h1>
+<p>This is a simple and modern looking EUR to RSD Exchange calculator.</p>
 
-![design2](https://user-images.githubusercontent.com/84463361/197020312-120fe033-d83a-4c50-8ae7-67909a532a80.png)
+<h1>Current Look</h1>
 
-<h1>Current look (code)</h1>
-
-![Screenshot_652](https://user-images.githubusercontent.com/84463361/197020432-32af13a7-7faa-4999-ab4e-57b498b75dae.png)
+![Screenshot Eur to Rsd conversion](https://user-images.githubusercontent.com/84463361/213774153-f1ee1c02-d1cb-42a5-b011-8cb98f6277aa.png)
