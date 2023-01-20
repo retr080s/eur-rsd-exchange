@@ -1,0 +1,117 @@
+body {
+  background-image: linear-gradient(to right, #2dfff5, #fff878);
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#exchange--box {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 30px;
+  box-shadow: #969fac 6px 6px 60px;
+  backdrop-filter: blur(20px);
+  min-width: 500px;
+  min-height: 500px;
+}
+
+#title {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#eur--euro {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.euflag {
+  width: 30px;
+  height: 30px;
+  background-image: url(img/eu30.png);
+  display: block;
+  margin: 8px 90px;
+  position: absolute;
+  border-radius: 25px;
+}
+
+#input--eur input {
+  text-align: center;
+  padding: 15px;
+  width: 300px;
+  border-radius: 15px;
+  background: rgba(231, 238, 245, 0.6);
+}
+
+#input--eur {
+  align-content: center;
+  text-align: center;
+}
+
+#enter--price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#rsd--serbiandinar {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.srbflag {
+  width: 30px;
+  height: 30px;
+  background-image: url(img/srb30.png);
+  display: block;
+  margin: 8px 90px;
+  position: absolute;
+  border-radius: 25px;
+}
+
+#output--rsd input {
+  text-align: center;
+  padding: 15px;
+  width: 300px;
+  border-radius: 15px;
+  background: rgba(231, 238, 245, 0.6);
+}
+
+#output--rsd {
+  align-content: center;
+  text-align: center;
+}
+
+#output--price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+#calculate--btn {
+  background: rgba(231, 238, 245, 0.6);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
